@@ -16,7 +16,9 @@ const CarItem = ({car, className}) => {
 
     return (
         <div className={'car ' + className}>
-            <div className={'img'} img={car.image}  alt={car.id}/>
+            <div className={'img-wrapper'} >
+                <img className={'img'} src={car.image}  alt={car.id} />
+            </div>
             <div className={'title'}>{car.title}</div>
             <div className={'price'}>
                 <span>Price: <b>{car.price}</b></span>
