@@ -1,15 +1,17 @@
-.button{
-    background: var(--tg-theme-button-color);
-    color: var(--tg-theme-button-text-color);
-    border-radius: 6px;
-    outline: none;
-    cursor: pointer;
-    display: flex;
+.button {
+	display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px; 
-    width: 100px; 
-    text-align: center; 
-    font-size: 16px;
-    font-weight: 700;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	transition: background .2s linear;
+}
+
+.button:hover {
+	background: lightgreen;
 }

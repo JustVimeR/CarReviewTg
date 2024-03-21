@@ -1,11 +1,12 @@
 .header {
-    width: 100%;
+    width: 390px;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .username {
+    display: block;
     margin-left: auto;
 }
